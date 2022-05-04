@@ -5,7 +5,7 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: ["Front-end Developer"],
+        strings: ["Front-end Developer", "Using React JS/TS"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
