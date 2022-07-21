@@ -9,7 +9,13 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
+import {
+  SiPytorch,
+  SiFirebase,
+  SiNextdotjs,
+  SiTypescript,
+  SiGraphql,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -19,6 +25,12 @@ function Techstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGraphql />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />

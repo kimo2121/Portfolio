@@ -7,6 +7,8 @@ import shopping from "../../Assets/Projects/e-commerce.png";
 import superLative from "../../Assets/Projects/super.png";
 import memories from "../../Assets/Projects/memories.png";
 import keepers from "../../Assets/Projects/keepers.png";
+import netflix from "../../Assets/Projects/netflix.png";
+import restaurant from "../../Assets/Projects/restaurant.png";
 
 function Projects() {
   return (
@@ -20,6 +22,24 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix-Next"
+              description="Netflix uses ISR, SSR, Serverless functions, Hasura, JWT, MagicLink, GraphQL, YouTube API, Framer Motion, Hooks."
+              link="https://github.com/kimo2121/Netflix-Next"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={restaurant}
+              isBlog={false}
+              title="Place-Finder"
+              description="Place-Finder uses SSG, Serverless functions, Airtable, Hooks, Context."
+              link="https://github.com/kimo2121/Place-Finder"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shopping}

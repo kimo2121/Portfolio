@@ -20,26 +20,26 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              something, I guess… 🤷‍♂️
               <br />
-              <br />I am fluent in like
+              <br />I am fluent in
               <i>
                 <b className="purple">
                   {" "}
-                  React, Hooks, Redux, Typescript, HTML, CSS, Javascript.{" "}
+                  Next, React, Hooks, Redux, Typescript, HTML, CSS, Javascript.{" "}
                 </b>
               </i>
               <br />
               <br />
               My field of Interest's is &nbsp;
               <i>
-                <b className="purple">Front-end </b>
+                <b className="purple">Full-stack </b>
               </i>
               <br />
               <br />
               Also Igor to learn more, learning in progress is{" "}
               <i>
-                <b className="purple">Next.js, C++, Solidity, Node.js</b>.
+                <b className="purple">C++, Solidity, Node.js</b>.
               </i>
             </p>
           </Col>

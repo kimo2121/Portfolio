@@ -10,13 +10,13 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Kareem Muhammad </span>
             from <span className="purple"> Egypt.</span>
-            <br />I am a junior React JavaScript/Typescript Developer.
+            <br />I am a junior Next.JS Developer.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Gaming
             </li>
             <li className="about-activity">
               <ImPointRight /> Workingout
