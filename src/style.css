@@ -15,7 +15,7 @@ html {
 }
 
 .purple {
-  color: rgba(121, 216, 142, 0.959) !important;
+  color: #79d88e !important;
 }
 
 button:focus {
@@ -62,7 +62,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(121, 216, 142, 0.959);
+  background: #79d88e;
   border-radius: 12px;
 }
 
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: rgba(58, 232, 96, 0.959);
+  background: #79d88e;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: rgba(121, 216, 142, 0.959);
+  color: #79d88e;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: rgba(121, 216, 142, 0.959) !important;
+  color: #79d88e !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: rgba(121, 216, 142, 0.959) !important;
+  color: #79d88e !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +371,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: rgba(121, 216, 142, 0.959);
+  background: #79d88e;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +379,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(121, 216, 142, 0.959);
+  box-shadow: 0 0 15px #79d88e;
 }
 
 .home-social-icons:hover {
-  color: rgba(121, 216, 142, 0.959);
-  box-shadow: 0 0 5px rgba(121, 216, 142, 0.959);
-  text-shadow: 0 0 2px rgba(121, 216, 142, 0.959);
+  color: #79d88e;
+  box-shadow: 0 0 5px #79d88e;
+  text-shadow: 0 0 2px #79d88e;
 }
 
 .social-icons {
@@ -395,7 +395,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: rgba(121, 216, 142, 0.959) !important;
+  color: #79d88e !important;
 }
 
 /* --------- */
@@ -554,7 +554,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(121, 216, 142, 0.959) !important;
+  border: 1.7px solid #79d88e !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -592,6 +592,10 @@ button:focus {
   padding-left: 1px !important;
 }
 
+.about-img img {
+  width: 70%;
+  height: 70%;
+}
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
