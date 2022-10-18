@@ -37,7 +37,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Also Igor to learn more, learning in progress is{" "}
+              Also eager to learn more, learning in progress is{" "}
               <i>
                 <b className="purple">C++, Solidity, Node.js</b>.
               </i>
